@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button {
+    border: none;
+    background: none;
+    color: hsl(224, 21%, 52%);
+    font-weight: 700;
+}
+
+.cancellation {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    overflow: auto;
+}
+
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 13px 13px 0 0;
+}
+
+.icon {
+    margin-top: 10px;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.paragraph {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.select {
+    padding-top: 15px;
+    padding-left: 5px;
+    font-family: 'Red Hat Display', sans-serif;
+}
